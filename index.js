@@ -5,7 +5,7 @@ require('dotenv').config();
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://localhost:3000'
+  origin: 'https://wishlist-client-2jao.onrender.com'
 }));
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
